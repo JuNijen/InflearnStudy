@@ -19,5 +19,23 @@
 *.tar.gz
 *.rar
 
+# 0712 Files #
+*.iml
+.gradle
+/AndroidBasicAppToKotlin/Study0712/local.properties
+/AndroidBasicAppToKotlin/Study0712/.idea/caches
+/AndroidBasicAppToKotlin/Study0712/.idea/libraries
+/AndroidBasicAppToKotlin/Study0712/.idea/modules.xml
+/AndroidBasicAppToKotlin/Study0712/.idea/workspace.xml
+/AndroidBasicAppToKotlin/Study0712/.idea/navEditor.xml
+/AndroidBasicAppToKotlin/Study0712/.idea/assetWizardSettings.xml
+/AndroidBasicAppToKotlin/Study0712.DS_Store
+/AndroidBasicAppToKotlin/Study0712/.idea/libraries/
+/AndroidBasicAppToKotlin/Study0712/build
+/AndroidBasicAppToKotlin/Study0712/captures
+/AndroidBasicAppToKotlin/Study0712.externalNativeBuild
+/AndroidBasicAppToKotlin/Study0712.cxx
+
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*

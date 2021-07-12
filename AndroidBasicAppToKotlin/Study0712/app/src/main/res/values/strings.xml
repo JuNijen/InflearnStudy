@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Day0712</string>
+    <string name="text_result">계산 결과 : </string>
+    <string name="edit_text_number_first">대상 숫자</string>
+    <string name="edit_text_number_second">피대상 숫자</string>
+    <string name="button_add">ADD</string>
+    <string name="button_sub">SUB</string>
+    <string name="button_mul">MUL</string>
+    <string name="button_div">DIV</string>
 </resources>

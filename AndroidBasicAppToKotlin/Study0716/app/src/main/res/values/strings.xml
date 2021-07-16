@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Day0716</string>
+    <string name="button_list">LIST</string>
+    <string name="button_quit">QUIT</string>
+
+    <string name="title_announce">Announce</string>
+    <string name="message_quit">Are you sure you want to quit the program?</string>
+
+    <string name="text_yes">YES</string>
+    <string name="text_no">NO</string>
 
 </resources>

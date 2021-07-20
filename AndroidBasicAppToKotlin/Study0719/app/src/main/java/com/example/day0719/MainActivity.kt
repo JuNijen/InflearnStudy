@@ -2,6 +2,7 @@ package com.example.day0719
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
@@ -30,12 +32,29 @@ class MainActivity : AppCompatActivity()
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show()
         }
+
+
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
+
+//        navView.setNavigationItemSelectedListener {
+//            when (it.itemId) {
+//                R.id.nav_first_layout -> {
+//                    supportFragmentManager.beginTransaction().replace(R.id.nav_first_layout, FirstLayout())
+//                    true
+//                }
+//                R.id.nav_second_layout -> {
+//                    supportFragmentManager.beginTransaction().replace(R.id.nav_second_layout, FirstLayout())
+//                    true
+//                }
+//                else -> false
+//            }
+//        }
+
+        appBarConfiguration = AppBarConfiguration(setOf(R.id.nav_first_layout, R.id.nav_second_layout), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

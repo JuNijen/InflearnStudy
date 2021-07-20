@@ -3,23 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_first_layout">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.day0719.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_first_layout"
+        android:name="com.example.day0719.FirstLayout"
+        android:label="@string/layout_first"
+        tools:layout="@layout/first_layout" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.day0719.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.day0719.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_second_layout"
+        android:name="com.example.day0719.SecondLayout"
+        android:label="@string/layout_second"
+        tools:layout="@layout/second_layout" />
 </navigation>
